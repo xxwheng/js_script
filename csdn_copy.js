@@ -8,7 +8,7 @@ function canCopyFunc() {
   console.log('off copy');
 }
 
-(() => {
-	console.log('hello...world...,I am from ',location.href);
-  canCopyFunc();
-})();
+	
+console.log('hello...world...,I am from ',location.href);
+canCopyFunc();
+
